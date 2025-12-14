@@ -1,41 +1,33 @@
 # 🚀 CI/CD DevOps Project README
 
+# 🧩 Task 1: CI/CD Pipeline using Azure
+
 ## 📌 Project Overview
 
-This project implements an automated CI/CD pipeline using Azure DevOps for a Blazor web application named AzureWebApp. The objective is to automate the build, integration, and deployment process so that code changes are delivered quickly, reliably, and consistently.
+This project focuses on building an **automated CI/CD pipeline using Azure DevOps and Azure services** for a Blazor web application. The main objective is to demonstrate how modern DevOps practices enable **continuous integration, continuous delivery, automation, and reliable deployments**.
 
-The application is developed using ASP.NET Core Blazor, managed with Git, and deployed automatically to Azure App Service through Azure Pipelines. This project demonstrates practical DevOps concepts used in cloud-based enterprise applications.
----
-🛠️ Tools Used
+The application is developed using **ASP.NET Core Blazor**, version-controlled using **Git**, and deployed automatically to **Azure App Service**. Azure DevOps tools are used to manage source code, pipelines, and monitoring, providing an end-to-end DevOps workflow.
 
-Visual Studio Code – Development IDE
-
-Blazor Web App (ASP.NET Core) – Web application framework
-
-Git – Version control
-
-Azure DevOps – Repository and CI/CD pipeline management
-
-Azure Pipelines – Automated build and release pipeline
-
-Azure App Service – Hosting and deployment
-
-Azure Container Registry (ACR) – Container image storage (if containerized)
 ---
 
-# 🧩 Task 1: CI/CD Pipeline – Azure Blazor Web App
+# 🧩 Task 1: CI/CD Pipeline using Azure (Blazor Web App)
+
+## 🎯 Task Objectives
+
+This task focuses on building a **fully automated CI/CD pipeline using Azure DevOps and Azure services**.
+
+### ✅ What is Covered in Task 1
+
+* Build an **automated CI/CD pipeline** using **Azure Pipelines**
+* Automatically deploy web applications via **Azure App Service**
+* Monitor pipeline execution to ensure smooth and reliable deployments
+* Learn and apply **key DevOps concepts** using Azure tools
+
+Reference: **[www.codealpha.tech](http://www.codealpha.tech)**
+
+---
 
 ## 🔹 Explanation of DevOps Project
-
-### 1️⃣ Development Environment Setup
-
-* **VS Code** installed and configured (already completed).
-* Created a **Blazor Web App** using **ASP.NET Core Framework**.
-* Project name: **AzureWebApp**.
-* Application initially runs on **localhost**.
-* Objective: **Publish the application to Azure App Service**.
-
----
 
 ### 2️⃣ Project Structure Explanation
 
@@ -144,23 +136,45 @@ Program.cs → App.razor → Routes → Home Page
 
 ---
 
-### 🚀 Deployment (Publishing)
+### 🚀 Deployment (Automated via Azure CI/CD)
 
-After building the website:
+After building the website, deployment is handled through an **automated Azure CI/CD pipeline**:
 
-* The application is **published to Azure App Service** using:
+* Source code is pushed to **Azure Repos**
+* **Azure Pipelines** triggers automatically on code changes
+* Application is built and packaged
+* Docker image (if containerized) is pushed to **Azure Container Registry (ACR)**
+* Application is deployed automatically to **Azure App Service**
 
-  * VS Code publish option
-* Alternative deployment method:
-
-  * Push code to **Git repository** and deploy from source control
+This ensures **continuous integration, continuous delivery, faster releases, and reduced manual errors**.
 
 ---
-✅ Conclusion
 
-This task successfully demonstrates a complete Azure-based CI/CD pipeline. It highlights how automation improves deployment speed, reliability, and consistency while reducing manual effort.
+### 📊 Pipeline Monitoring
 
-The project provides strong hands-on experience with Azure DevOps, Azure App Service, and modern DevOps workflows.
+* Azure Pipelines dashboard is used to:
 
+  * Track build and release stages
+  * Monitor logs and execution status
+  * Identify failures quickly
+* Ensures smooth and reliable CI/CD execution
+
+---
+
+## ✅ Conclusion
+
+In this task, an end-to-end **CI/CD pipeline using Azure** was successfully implemented. The project demonstrates how code changes can be automatically built, tested, and deployed to the cloud with minimal manual intervention.
+
+Through this task, key DevOps concepts were learned and applied, including:
+
+* Continuous Integration and Continuous Deployment (CI/CD)
+* Azure DevOps Pipelines
+* Azure App Service deployment
+* Source control and automation
+* Cloud-based application hosting
+
+This project provides practical, hands-on experience in using **Azure DevOps tools** to deliver scalable and reliable applications efficiently.
+
+---
 
 👤 **Author**: Sameen Afzal
